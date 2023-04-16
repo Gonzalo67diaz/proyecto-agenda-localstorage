@@ -1,0 +1,191 @@
+
+body {
+    font-family: sans-serif;
+    margin: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://images5.alphacoders.com/426/426548.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .app {
+    background-image: url(https://fondosmil.com/fondo/45388.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-width: 250px;
+    height: 90vh;
+    text-align: center;
+    border: 5px solid #1d1b1d;
+    border-radius: 60px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    display: grid;
+  
+   
+  }
+  
+  #form{
+    outline: none;
+  }
+   
+  p{
+    font-size: 1.80;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 999;
+    text-align: center;
+   }
+      
+     
+    .boton{
+      margin-top: 10px;
+      width: 40%;
+      min-width: 230px;
+      height: 60px;
+      border-radius: 60px;
+      font-size: 2rem;
+      font-family: 'Great Vibes', cursive;
+      font-weight: 999;
+      background-color: rgb(224, 170, 19);
+      border: none;
+     
+    }
+  
+  .app::-webkit-scrollbar {
+    width: 0 !important;
+  }
+  
+  #tasks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-right: 7%;
+    
+  }
+    
+  #tasks div{
+    
+    display: grid;
+    gap: 4px;
+    border: 5px solid #a77415;
+    background-color: hsla(105, 9%, 37%, 0.911);
+    border-radius: 60px;
+    padding: 3%;
+    padding-right: 20px;
+    width: 100%;
+    min-width: 250px;
+    font-size: 1.99rem;
+    font-weight: 999;
+    font-family: 'Cinzel', serif;
+    
+  }
+  
+  #tasks div .options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+    font-size: 2rem;
+  
+  }
+  
+  #tasks div .options i {
+    cursor: pointer;
+  }
+  
+  #msg {
+    
+    color: rgb(252, 0, 0);
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 999;
+  }
+  input {
+    
+  
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    padding-left: 2%;
+    border-radius: 60px;
+    width: 100%;
+    min-width: 230px;
+    max-width: 400px;
+    height: 70px;
+    font-size: 1.80rem;
+    font-weight: 999;
+    font-family: sans-serif;
+    border: 5px solid #a77415;
+    outline: none;
+   
+    
+  
+   
+  }
+  
+  #textarea{
+    
+    /* si pongo un width del 100%*/
+   
+    min-width: 250px;
+    max-width: 250px;
+    max-height: 800px;
+    min-height: 800px;
+    font-size:2.2rem;
+    font-weight: 999;
+    font-family: sans-serif;
+    border-radius: 16px;
+    padding-left: 10px;
+    padding-right: 50px;
+    background-color: hsla(22, 68%, 35%, 0.911);
+    border: 5px solid #000000;
+    outline: none;
+  }
+  
+  
+  
+  
+  
+  
+  @media screen and (min-width:1000px) {
+    
+  
+    #tasks {
+      margin-left: 6%;
+      margin-right: 140px;
+      
+    }
+    form{
+      outline: none;
+    }
+    #tasks div{
+  
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-right: 100px;
+    
+   }
+   .app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+   }
+  
+  p{
+    font-size: 2.6rem;
+  }
+  
+  #textarea{
+  max-height: 700px;
+  
+  }
+  
+  }
+  

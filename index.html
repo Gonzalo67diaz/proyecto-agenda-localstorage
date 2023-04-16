@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APP</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="app">
+    
+
+
+    <!-- Modal -->
+    <form class="modal fade" id="form" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  
+      <p>Mi lista</p>
+      
+            <p>Titulo de la tarea</p>
+            
+            <input type="text" class="form-control" maxlength="20"  name="" id="textInput">
+         
+            <div id="msg"></div>
+            <br>
+            <p>Elegir fecha</p>
+            <input type="date" class="form-control" name="" id="dateInput">
+            <br>
+            <p>Descripción</p>
+            <textarea name="" class="form-control" id="textarea" placeholder="Escriba contando el espacio 13 caracteres por linia"></textarea>
+            <br>
+            <button type="submit" data-bs-dismiss="modal" id="add" class="boton">Agregar</button> 
+        
+         
+        
+    </form> 
+    <div>
+      <p>Mis tareas</p>
+      <div  id="tasks"> </div>
+     </div>
+
+  </div>       
+   
+</body>
+<script src="main.js"></script>
+
+
+</html>
